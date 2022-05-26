@@ -1,5 +1,5 @@
 //TV type namen importeren
-import inventory from "../assets/inventory";
+import inventory from "../assets/inventory.js";
 
 //1a, Map gebruiken om de tv-type namen van de objecten in een nieuwe array te plaatsen
 export const televisionTypes = inventory.map((television) => {
@@ -33,5 +33,3 @@ export const sortLowestPrice = inventory.sort((a, b) => {
 
     return 0;
 })
-
-export default;

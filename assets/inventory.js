@@ -161,4 +161,4 @@ const inventory = [
         sold: 8,
     },
 ];
-export default inventory
+export default inventory;
